@@ -243,7 +243,12 @@
 
     function wikiHtml(link){
 
-      return '<a href="#" class="wiki-link" data-wiki-title="' +
+      var exists = !!pageByTitle(link.title);
+
+      var cls = 'wiki-link ' +
+        (exists ? 'wiki-link-exists' : 'wiki-link-missing');
+
+      return '<a href="#" class="' + cls + '" data-wiki-title="' +
         esc(link.title).replace(/"/g, '&quot;') +
         '">' +
         esc(link.label) +
