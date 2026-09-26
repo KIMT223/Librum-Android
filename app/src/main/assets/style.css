@@ -251,6 +251,9 @@
 .markdown-body .wiki-link{
   color:var(--accent);
   text-decoration:none;
-  border-bottom:1px dashed currentColor;
+  border-bottom:1px solid currentColor;
+}
+.markdown-body .wiki-link-missing{
+  border-bottom-style:dashed;
 }
 .markdown-body .wiki-link:active{opacity:.7;}
