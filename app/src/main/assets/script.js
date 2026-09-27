@@ -2387,7 +2387,8 @@
           DEFAULT_HOME_TITLE,
 
           '# 主页\n\n' +
-          '欢迎使用本地 md 维基。\n\n' +
+          '欢迎使用Librum。\n\n' +
+          '这是一个使用Markdown语法的本地Wiki。\n\n' +
           '你可以使用 `[[页面标题]]` 连接到其他页面。'
         ).then(
           function(slug){
