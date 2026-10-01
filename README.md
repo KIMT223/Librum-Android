@@ -13,3 +13,19 @@ Librum 使用 Kotlin + Android WebView 构建，将 HTML/CSS/JavaScript 前端�
 - 内置轻量 Markdown 后备渲染器，可完全离线运行
 - 无 INTERNET 权限
 - targetSdk 36，适合 2026 年 Google Play 新应用要求。
+
+## License
+
+Librum is free and open-source software licensed under the
+GNU General Public License, version 3 (GPL-3.0).
+
+Copyright (C) 2026 Librum Contributors
+
+You are free to use, study, modify, and redistribute Librum
+under the terms of the GNU General Public License version 3.
+
+A copy of the GNU General Public License is included in the
+`LICENSE` file in this repository.
+
+For more information, see:
+https://www.gnu.org/licenses/gpl-3.0.html
