@@ -56,11 +56,11 @@
   };
 
 
-  var SETTINGS_PATH = 'wiki/settings.json';
-  var INDEX_PATH = 'wiki/index.json';
+  var SETTINGS_PATH = 'settings.json';
+  var INDEX_PATH = 'index.json';
 
   function pagePath(slug){
-    return 'wiki/pages/' + slug + '.md';
+    return 'pages/' + slug + '.md';
   }
 
 
