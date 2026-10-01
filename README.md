@@ -12,7 +12,7 @@ Librum 使用 Kotlin + Android WebView 构建，将 HTML/CSS/JavaScript 前端�
 - 启动时进入“主页”，不存在则自动创建
 - 内置轻量 Markdown 后备渲染器，可完全离线运行
 - 无 INTERNET 权限
-- targetSdk 36，适合 2026 年 Google Play 新应用要求。
+- targetSdk 36，适合 2026 年 Google Play 新应用要求
 
 ## License
 
